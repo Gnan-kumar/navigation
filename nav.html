@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Navigation</title>
+        
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<link rel="stylesheet" href="nav.css">
+
+</head>
+<body bgcolor="lightblue">
+   
+    <nav class="nav-bar">
+        <a href="#" class="logo"><i class="fas fa-desktop"></i></a>
+        <span class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#" class="signUpBtn">Sign up</a>
+        </span>
+    </nav>
+    <h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<center><img src="cpm.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"></center>  
+   <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="http://127.0.0.1:5500/computer.html">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="http://127.0.0.1:5500/phone.html">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="http://127.0.0.1:5500/coffe.html">
+  </map>
+  <script src="string.js"></script>
+</body>
+</html>
